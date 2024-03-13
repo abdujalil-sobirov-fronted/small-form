@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h2>Sign up</h2>
+		<p>Please fill in this form to create an account</p>
+		<hr>
+		<div class="inputs-group">
+			<form>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Enter Email"><br>
+
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder="Enter Password"><br>
+
+				<label for="password2">Repeat Password</label>
+				<input type="password" name="Repeat Password" id="password2" placeholder="Repeat Password"><br>
+
+				<div class="checkbox">
+					<input type="radio" value="male" id="radio" name="radio">Male
+					<input type="radio" value="female" id="radio" name="radio">Female
+				</div>
+
+				<input type="checkbox" id="checkbox">
+				<label for="checkbox">Remember me</label>
+
+				<p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+
+				<button type="reset">Cancel</button>
+				<button type="submit">Sign Up</button>
+			</form>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
